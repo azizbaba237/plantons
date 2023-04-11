@@ -1,11 +1,11 @@
 import PublicRoutes from "./publicRoutes/PublicRoutes";
-// import Footer from "./component/Footer";
+import Footer from "./component/Footer";
 
 function App() {
   return (
     <div>
       <PublicRoutes />
-      {/* <Footer /> */}
+      <Footer /> 
     </div>
   );
 }

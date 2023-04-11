@@ -10,7 +10,7 @@ function ReadProduct() {
   // Fetch data from database
   useEffect(() => {
     const fetchPlants = async () => {
-      const { data } = await axios.get(`http://localhost:5000/${_id}`);
+      const { data } = await axios.get(`http://localhost:8000/${_id}`);
       console.log(data);
       setPlant(data.plantsId);
     };

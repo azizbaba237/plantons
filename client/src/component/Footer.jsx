@@ -57,7 +57,7 @@ export const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="pb-2">Copyrith Aziz baba | all right reserved 2023</div>
+      <div className="">Copyrith Aziz baba | all rights reserved 2023</div>
     </div>
   );
 };

@@ -21,7 +21,7 @@ export const NewsLetter = () => {
               Notify me
             </button>
           </div>
-          <p>We care about the proection of your data. <span className="text-[#00df9a]">Read our privacy policy.</span></p>
+          <p>We care about the protection of your plants. <span className="text-[#00df9a]">Read our privacy policy.</span></p>
         </div>
       </div>
     </div>

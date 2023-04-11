@@ -9,7 +9,7 @@ function Product() {
   // Fetch data from database
   useEffect(() => {
     const fetchPlants = async () => {
-      const { data } = await axios.get("http://localhost:5000");
+      const { data } = await axios.get("http://localhost:8000");
       setPlants(data.allProduct);
     };
     fetchPlants();

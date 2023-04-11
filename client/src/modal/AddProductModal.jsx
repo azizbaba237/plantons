@@ -32,7 +32,7 @@ function AddProductModal({ visible, onClose }) {
     formData.append("price", data.price);
     formData.append("description", data.description);
     formData.append("category", data.category);
-    await axios.post("http://localhost:5000", formData);
+    await axios.post("http://localhost:8000", formData);
     console.log(data);
   };
 
