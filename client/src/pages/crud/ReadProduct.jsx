@@ -26,7 +26,7 @@ function ReadProduct() {
             <div>
               {plant.avatar && (
                 <img
-                  src={`http://localhost:5000/${plant.avatar}`}
+                  src={`http://localhost:8000/${plant.avatar}`}
                   alt="cover goes here"
                   className="w-60 h-60 object-cover rounded-3xl"
                 />

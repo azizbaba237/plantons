@@ -1,6 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import axios from "axios";
 import AddProduct from "./crud/AddProduct";
+// import UpdateProduct from "./crud/UpdateProduct";
 import { Link } from "react-router-dom";
 
 function Product() {
@@ -17,13 +18,12 @@ function Product() {
 
   return (
     <div className="">
-      
+      rs
       <div className="flex justify-end items-end my-8 mr-[140px] ">
         <AddProduct />
       </div>
-
-      <div className=" relative overflow-x-auto shadow-md sm:rounded-lg">
-        <table className="w-full text-sm text-left text-blue-100 dark:text-blue-100 mr-16">
+      <div className=" w-full h-full relative overflow-x-auto shadow-md sm:rounded-lg">
+        <table className=" w-full text-sm text-left text-blue-100 dark:text-blue-100 mr-16">
           <thead className="text-xs text-white uppercase bg-gray-500 dark:text-white">
             <tr>
               <th scope="col" className="px-6 py-3">
@@ -68,9 +68,14 @@ function Product() {
                       >
                         View
                       </Link>
-                      <button className="font-medium text-white hover:underline mr-1 rounded p-2 bg-gray-500">
-                        Edit
-                      </button>
+                      {/* <button className="font-medium text-white hover:underline mr-1 rounded p-2 bg-gray-500">
+                        <UpdateProduct />
+                      </button> */}
+                      <div>
+                        {/* <Link>
+                          <UpdateProduct />
+                        </Link> */}
+                      </div>
                       <button className="font-medium text-white hover:underline rounded p-2 bg-red-500">
                         Delete
                       </button>

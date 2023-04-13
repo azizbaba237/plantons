@@ -10,7 +10,7 @@ import { BiMenu } from "react-icons/bi";
 import  woman from "../assets/woman.jpg"
 
 const navigation = [
-  { name: "Dashboard", to: "/dashboard", current: true },
+  // { name: "Dashboard", to: "/dashboard", current: true },
   { name: "Home", to: "/", current: false },
   { name: "Product", to: "/product", current: false },
   { name: "About", to: "/about", current: false },
@@ -36,7 +36,7 @@ function Nav() {
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div className="relative flex h-16 items-center justify-between">
+            <div className="relative flex h-16  items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">

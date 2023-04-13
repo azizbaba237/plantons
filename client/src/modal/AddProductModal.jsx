@@ -33,7 +33,10 @@ function AddProductModal({ visible, onClose }) {
     formData.append("description", data.description);
     formData.append("category", data.category);
     await axios.post("http://localhost:8000", formData);
-    console.log(data);
+  //   setTimeout( () => {
+  //     formData.resetField();
+  //   }, 500)
+  //   console.log(data);
   };
 
   if (!visible) return null;

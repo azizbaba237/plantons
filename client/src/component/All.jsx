@@ -1,13 +1,13 @@
 import React from 'react'
-import Hero from '../component/Hero'
 import Analytics from '../component/Analytics'
 import NewsLetter from '../component/NewsLetter'
 import Cart from '../component/Cart'
+import Header from './Header'
 
 export const All = () => {
   return (
     <div>
-        <Hero/>
+        <Header/>
         <Analytics/>
         <NewsLetter/>
         <Cart/>
